@@ -1,6 +1,6 @@
 
 # Title that recommends an action
-## Subtitle describing the analysis 
+## Sales Prediction 
 
 By **Paula Pipkin** 
 
