@@ -6,15 +6,16 @@ By **Paula Pipkin**
 
 ### The business is trying to predict sales:
 
-based on features of the items being sold and some relevant features of the stores selling those items, we will try to predict future sales.
+Based on features of the items being sold and some relevant features of the stores selling those items, we will try to predict future sales.
 
 
 ### Data:
+
 The data set source is the website Analytics Vidhya and here is a link to the original data:
 https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 
-
 ## Methods
+
 - After some pre cleaning, two copies of the data were made so EDA could be done without risking leakage.  
 - EDA was used to show correlations between some relevant features
 
