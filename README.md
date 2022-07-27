@@ -25,11 +25,14 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii
 
 
 #### Heat Map for numerical Features
-![sample image](heatmap (1).jpg)
+![sample image](heatmap(1).jpg)
 
-> Sentence about visualization.
+> The best correlation with the target is with Max retail price.
 
-#### Visual 2 Title
+#### Sales of 2 different item and their respectives prices
+
+![sample image](items.jpg)
+
 
 Showing metrics for testing data:
 
