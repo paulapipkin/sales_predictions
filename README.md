@@ -25,7 +25,7 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii
 
 
 #### Heat Map for numerical Features
-![sample image](heatmap.jpg)
+![sample image](heatmap (1).jpg)
 
 > Sentence about visualization.
 
