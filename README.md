@@ -29,16 +29,17 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii
 
 > The best correlation with the target is with Max retail price.
 
-#### Sales of 2 different item and their respectives prices
+#### Sales of 2 different items and their respectives prices
 
-![sample image](items.jpg)
+![sample image](items1.jpg)
 
+> Even though MRP has the best correlation to Sales, it still does not explain why for the items above the sales do not vary according to the different prices.
 
-Showing metrics for testing data:
+#### Showing metrics for testing data:
 
 | Model         | RMSE                   | R2       |
 | ------------- | -----------------------| -------- |
-| Linear Regres | 35849625523401.445312	 | -465823207696583688192.0 |
+| Linear Regression | 35849625523401.445312	 | -465823207696583688192.0 |
 | Decision Tree | 1464.4947              | 0.5886  |
 
 
@@ -49,7 +50,7 @@ Showing metrics for testing data:
 So based on the metrics results I wouldn't suggest a linear regression model to this data.* 
 
 
-- *The Decision Tree yeld better metrics values, it is far from perfect, specially if we anallize the RMSE that is showing great difference between training and test data. But the R2 is around 60%, which indicates that more relevant features should be add to the data if we want to predict the sales with confidence, still, the model can now explain 60% of the variance on the results and between the 2 I would recomend Decision Tree over Linear Regression*  
+- *The Decision Tree yielded better metrics values, it is far from perfect, specially if we anallize the RMSE that is showing great difference between training and test data. But the R2 is around 60%, which indicates that more relevant features should be add to the data if we want to predict the sales with confidence, still, the model can now explain 60% of the variance on the results and between the 2 I would recomend Decision Tree over Linear Regression*  
 
 
 ### For further information
