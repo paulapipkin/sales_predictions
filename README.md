@@ -17,7 +17,7 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii
 
 - After some pre cleaning, two copies of the data were made so EDA could be done without risking leakage.  
 - EDA was used to show correlations between some relevant features
-- Two models were applied, Linear Regression and Decision Tree
+- Three models were applied, Linear Regression, Decision Tree and Random Forrest
 
 
 ## Results
@@ -41,6 +41,7 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii
 | ------------- | -----------------------| -------- |
 | Linear Regression | 35849625523401.445312	 | -465823207696583688192.0 |
 | Decision Tree | 1464.4947              | 0.5886  |
+| Random Forrest|1101.6168	|0.5988	
 
 
 
@@ -50,8 +51,7 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii
 So based on the metrics results I wouldn't suggest a linear regression model to this data.* 
 
 
-- *The Decision Tree yielded better metrics values, it is far from perfect, specially if we anallize the RMSE that is showing great difference between training and test data. But the R2 is around 60%, which indicates that more relevant features should be add to the data if we want to predict the sales with confidence, still, the model can now explain 60% of the variance on the results and between the 2 I would recomend Decision Tree over Linear Regression*  
-
+- *The Decision Tree and the Random Forrest yielded better metrics values, it is far from perfect, specially if we anallize the RMSE that is showing great difference between training and test data. But the R2 is around 60%, which indicates that more relevant features should be add to the data if we want to predict the sales with confidence, still, the model can at this point explain 60% of the variance on the results and among the 3 I would recomend Decision Tree over Linear Regression and since 'Item Identifier' was dropped for the process of the Random Forrest, I will follow up with the Decision Tree, because this model consider more features that I find relevant*  
 
 ### For further information
 
