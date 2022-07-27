@@ -1,6 +1,5 @@
 
-# Title that recommends an action
-## Sales Prediction 
+# Sales Prediction 
 
 By **Paula Pipkin** 
 
@@ -18,11 +17,11 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii
 
 - After some pre cleaning, two copies of the data were made so EDA could be done without risking leakage.  
 - EDA was used to show correlations between some relevant features
+- Two models were applied, Linear Regression and Decision Tree
 
 
 ## Results
 
-### Here are examples of how to embed images from your sub-folder
 
 
 #### Visual 1 Title
@@ -32,22 +31,22 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii
 
 #### Visual 2 Title
 
-## Model
+Showing metrics for testing data:
 
-Describe your final model
-
-Report the most important metrics
-
-Refer to the metrics to describe how well the model would solve the business problem
-
-## Recommendations:
-
-More of your own text here
+| Model         | RMSE                   | R2       |
+| ------------- | -----------------------| -------- |
+| Linear Regres | 35849625523401.445312	 | -465823207696583688192.0 |
+| Decision Tree | 1464.4947              | 0.5886  |
 
 
-## Limitations & Next Steps
 
-More of your own text here
+## Recommendations, Limitations & Next Steps:
+
+- *With a negative R2 score, you can safely assume that the model is a very poor fit to the data and a super large RMSE will only confirm that.
+So based on the metrics results I wouldn't suggest a linear regression model to this data.* 
+
+
+- *The Decision Tree yeld better metrics values, it is far from perfect, specially if we anallize the RMSE that is showing great difference between training and test data. But the R2 is around 60%, which indicates that more relevant features should be add to the data if we want to predict the sales with confidence, still, the model can now explain 60% of the variance on the results and between the 2 I would recomend Decision Tree over Linear Regression*  
 
 
 ### For further information
